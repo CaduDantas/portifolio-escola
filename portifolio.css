@@ -333,6 +333,19 @@ body {
 
 }
 
+@media (max-width: 768px) {
+
+    #teste2 {
+
+        width: max-content;
+
+        font-size: 27px;
+
+        height: auto;
+    }
+
+}
+
 .titulotopico {
 
     margin: 0 10% 0;
@@ -415,7 +428,7 @@ body {
 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1306px) and (max-width: 1920px) {
 
 #cadu {
 
@@ -913,7 +926,7 @@ width: 100%;
 
 
 
-@media (min-width: 769px) and (max-width: 1306px) {
+@media (min-width: 769px) and (max-width: 1106px) {
 
     #pagina-inicial {
         flex-wrap: wrap;
@@ -955,6 +968,12 @@ width: 100%;
     }
 
     #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    #teste2 {
         width: max-content;
         font-size: 70px;
         height: auto;
@@ -1024,7 +1043,7 @@ width: 100%;
     }
 }
 
-@media (min-width: 1306px) and (max-width: 1440px) {
+@media (min-width: 1106px) and (max-width: 1350px) {
 
     #pagina-inicial {
         flex-wrap: wrap;
@@ -1066,6 +1085,12 @@ width: 100%;
     }
 
     #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    #teste2 {
         width: max-content;
         font-size: 70px;
         height: auto;
