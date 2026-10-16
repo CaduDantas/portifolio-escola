@@ -1,0 +1,1153 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background:
+
+        radial-gradient(
+
+            circle at 20% 20%,
+
+            #251747 0%,
+
+            transparent 40%
+
+        ),
+        radial-gradient(
+
+            circle at 80% 70%,
+
+            #1b1635 0%,
+
+            transparent 40%
+
+        ),
+
+        #0D0D12;
+
+    color: #EAEAF0;
+
+    min-height: 100vh;
+
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    #pagina-inicial {
+
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #pagina-inicial {
+
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+#pagina-inicial {
+
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+
+}
+
+
+#titulomax {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center; 
+}
+
+.titulo {
+
+    width: 50%;
+    height: 10%; 
+    color: #A78BFA;
+    text-align: flex-end;
+    font-size: 36px;
+    font-style: italic;
+    text-shadow: 0 0 10px #9d91c0;
+    margin: 0;
+    
+}
+
+.subtitulo {
+    
+    width: max-content;
+    color: #EAEAF0;
+    text-align: left;
+    font-size: 15px;
+    margin-top: -15px;
+    
+}
+
+@media (max-width: 768px) {
+
+
+    #gifchato {
+
+        width: 250px;
+
+        margin-left: 0px;
+    }
+
+
+}
+
+
+.gif {
+
+     height: auto;
+
+     width: 400px;
+
+     margin-left: 30%;
+
+     margin-top: 10%;
+
+     flex: 1 1 250px;
+    
+     min-width: 0;
+}
+
+
+@media (max-width: 768px) {
+
+
+    #botoes {
+
+        margin-left: 10%;
+
+    }
+
+
+}
+#botoes {
+
+    width: 80%;
+
+    background-color: #16161f;
+
+    border: 3px solid #252535;
+
+    align-items: center;
+
+    margin-top: 150px;
+
+    border-radius: 30px;
+
+    margin-right: 20px;
+
+    box-shadow: 0px 0px 5px rgba(167, 139, 250, 0.3);
+
+
+    
+}
+
+.Tbotoes {
+
+    
+ 
+    display: flex;
+
+    flex-direction: column;
+    
+    gap: 50px;
+
+    align-items: center;
+
+    padding: 40px;
+    
+}
+
+.Tbotoes button {
+
+    width: 80%;
+
+    color: #C4B5FD;
+
+    border: 3px solid #45405E;
+
+    background-color: #181824;
+
+    padding: 10px;
+
+    font-size: 18px;
+
+    border-radius: 30px;
+
+    font-style: italic;
+
+    box-shadow: 10px 6px 10px rgba(167, 139, 250, 0.3);
+}
+
+#topico1 {
+
+    margin-top: 300px;
+
+
+}
+
+
+
+
+
+.topicos {
+
+    gap: 20px;
+
+    width: 100%;
+
+    margin-top: 300px;
+
+    display: flex;
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .topicos {
+
+        flex-direction: column;
+    }
+
+}
+
+
+
+.parte1 {
+
+    width: 60%;
+
+  
+}
+
+@media (max-width: 768px) {
+
+    .parte1 {
+
+        width: 100%
+    }
+
+}
+
+.separacao {
+
+    margin: 0 10% 0;
+
+    width: max-content;
+
+    color: #EAEAF0;
+
+    text-align: left;
+
+    font-size: 19px;
+
+    color: #673fdf;
+
+    text-shadow: 0 0 15px #9d91c0;
+}
+
+
+
+.texto {
+
+    background-color: #181824;
+
+    border: 5px solid #303040;
+
+    width: 80%;
+
+    color: #EAEAF0;
+
+    text-align: justify;
+
+    font-style: italic;
+
+    font-size: 17px;
+
+    padding: 10px;
+
+    border-radius: 30px;
+
+    margin: 0 10% 0;
+    
+}
+
+@media (max-width: 768px) {
+
+    .texto {
+
+        margin: 20px 10% 0
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    #teste {
+
+        width: max-content;
+
+        font-size: 30px;
+
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #teste1 {
+
+        width: max-content;
+
+        font-size: 27px;
+
+        height: auto;
+    }
+
+}
+
+.titulotopico {
+
+    margin: 0 10% 0;
+
+    width: max-content;
+
+    color: #7d55f5;
+
+    font-size: 50px;
+
+    font-style: italic;
+
+    height: 80px;
+
+    text-align: top;
+
+    text-shadow: 0 0 10px #9d91c0;
+}
+
+
+.parte2 {
+
+    width: 40%;
+
+    display: flex;
+
+
+
+    align-items: flex-end;
+
+    margin-left: 50px;
+    
+}
+
+@media (max-width: 768px) {
+
+    .parte2{
+
+        width: 100%;
+
+        margin: 0 0 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #cadu {
+
+        margin: 0 10% 0;
+    }
+
+}
+
+
+.imagem {
+
+    height: auto;
+
+    width: 47%;
+
+    border: 3px solid #303040;
+
+    margin: 0;
+
+    border-radius: 30px;
+
+}
+
+@media (max-width: 768px) {
+
+    .imagem {
+
+        width: 80%;
+
+        margin: 0 0 0;
+
+
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+
+#cadu {
+
+    height: 600px;
+
+    width: auto;
+
+    border: 3px solid #303040;
+
+    margin: 0;
+
+    border-radius: 30px;
+
+}
+
+}
+
+#melhores {
+
+    width: 90%;
+
+}
+
+@media (max-width: 768px) {
+
+    #melhores {
+
+        width: 90%;
+
+        margin: 0 5% 0;
+    }
+
+}
+
+.paigif {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 100px;
+    
+
+}
+
+@media (max-width: 768px) {
+
+    .paigif {
+
+
+        margin-top: 200px;
+
+        gap: 10px;
+
+        flex-direction: column;
+    }
+
+}
+
+.gifmeio {
+
+     height: auto;
+
+     width: 20%;
+
+     margin-top: 10%;
+
+}
+
+@media (max-width: 768px) {
+
+    .gifmeio {
+
+
+        width: 60%
+    }
+
+}
+
+#jesus {
+
+
+    width: max-content;
+
+    color: #f0eaea;
+
+    text-align: justify;
+
+    font-style: italic;
+
+    font-size: 40px;
+
+    padding: 10px;
+
+    border-radius: 30px;   
+}
+
+#logisticaGIF {
+
+
+    width: max-content;
+
+    color: #f0eaea;
+
+    text-align: justify;
+
+    font-style: italic;
+
+    font-size: 37px;
+
+    padding: 10px;
+
+    border-radius: 30px;   
+}
+
+.eventos {
+    
+    gap: 20px;
+
+    width: 100%;
+
+    margin-top: 300px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    
+}
+
+@media (max-width: 768px) {
+
+    .img-texto{
+
+        flex-direction: column;
+    }
+
+}
+
+#grade {
+display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;                     
+    width: 100%;                    
+    max-width: 700px;               
+    margin: 0 auto;
+}
+
+.imagem1 {
+border: 3px solid white;
+    border-radius: 20px;           
+    overflow: hidden;              
+    background-color: #1a162b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 img {
+width: 100%;                  
+    height: 100%;                 
+    object-fit: cover;          
+    display: block;
+}
+
+.logistica {
+
+    margin: 0 10% 0;
+
+    width: 50%;
+
+    color: #e93e3e;
+
+    font-size: 35px;
+
+    font-style: italic;
+
+    height: 80px;
+
+    text-align: top;
+
+    text-shadow: 0 0 10px #9d91c0;
+}
+
+@media (max-width: 768px) {
+
+    #logistica1 {
+
+        width: 80%;
+
+        font-size: 27px;
+
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #logistica2 {
+
+        width: 80%;
+
+        font-size: 35px;
+
+        height: auto;
+    }
+
+}
+
+#cadeia {
+
+    width: 85%;
+}
+
+.gifmeiologistica {
+
+     height: auto;
+
+     width: 20%;
+
+     margin-top: 10%;
+
+}
+
+@media (max-width: 768px) {
+
+    .gifmeiologistica {
+
+
+        width: 90%
+    }
+
+}
+
+.CDE {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: max-content;
+
+
+
+    gap: 50px;
+
+}
+
+@media (max-width: 500px) {
+
+    .CDE {
+
+
+        width: 300px
+    }
+
+}
+
+.blocoestatistico {
+
+
+
+    margin: 0 0 0;
+
+    width: 50%;
+
+    color: #C4B5FD;
+
+    border: 3px solid #45405E;
+
+    background-color: #181824;
+
+    align-items: center;
+
+    justify-items: left;
+
+    padding: 10px;
+
+    font-size: 18px;
+
+    border-radius: 30px;
+
+    font-style: italic;
+
+    box-shadow: 10px 6px 10px rgba(167, 139, 250, 0.3);
+
+    box-sizing: border-box;
+
+    width: 185px;
+
+    min-height: 180px;
+
+    padding: 16px;
+
+    margin: 0;
+
+    
+
+    
+}
+
+.numeros {
+
+    font-size: 25px;
+}
+
+.nome-es {
+
+   font-size: 20px; 
+}
+
+#simuladortt {
+
+    width: 100%;
+
+    color: #A78BFA;
+
+    text-align: flex-end;
+
+    font-size: 36px;
+
+    padding: 10px;
+
+    font-style: italic;
+
+    text-shadow: 0 0 10px #9d91c0;
+
+    margin: 10px 0 0;
+
+
+}
+
+.estatisticas {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 300px);
+
+    justify-items: center;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .estatisticas {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+#ficarbonito {
+
+    display: flex;
+
+    flex-direction: column;
+
+
+    background-color: #16161f;
+
+    border: 3px solid #252535;
+
+    border-radius: 30px;
+
+    margin-right: 20px;
+
+    box-shadow: 0px 0px 5px rgba(167, 139, 250, 0.3);
+
+    padding: 10px;
+
+    gap: 50px;
+}
+
+
+.controles-estoque {
+
+    color: #EAEAF0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+    margin-top: 25px;
+}
+
+.selecao-operacao {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.opcao {
+
+    accent-color: #A78BFA;
+
+    width: 16px;
+
+    height: 16px;
+
+    cursor: pointer;
+}
+
+.selecao-operacao label {
+
+    cursor: pointer;
+
+    transition: color 0.2s;
+}
+
+.selecao-operacao label:hover {
+
+    color: #A78BFA;
+}
+
+.campo-quantidade {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+#numeros {
+
+    width: 110px;
+
+    padding: 10px;
+
+    color: #EAEAF0;
+
+    background: #17151F;
+
+    border: 1px solid #49386B;
+
+    border-radius: 8px;
+
+    outline: none;
+}
+
+#numeros:focus {
+
+    border-color: #A78BFA;
+
+    box-shadow: 0 0 8px #A78BFA55;
+}
+
+.btn-verificar {
+
+    padding: 10px 18px;
+
+    color: white;
+
+    background: #8B5CF6;
+
+    border: 1px solid #A78BFA;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-verificar:hover {
+
+    background: #A78BFA;
+
+    box-shadow: 0 0 12px #A78BFA66;
+
+    transform: translateY(-2px);
+}
+
+.btn-verificar:active {
+
+    transform: scale(0.97);
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1306px) {
+
+    #pagina-inicial {
+        flex-wrap: wrap;
+    }
+
+    #gifchato {
+        width: 250px;
+        margin-left: 0;
+    }
+
+    #botoes {
+        margin-left: 10%;
+    }
+
+    .topicos {
+        flex-direction: column;
+    }
+
+    .parte1 {
+        width: 100%;
+    }
+
+    .texto {
+        margin: 20px 10% 0;
+
+        font-size: 35px;
+    }
+
+    .contagem {
+
+        font-size: 40px;
+    }
+
+
+    #teste {
+        width: max-content;
+        font-size: 65px;
+        height: auto;
+    }
+
+    #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    .parte2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    #cadu {
+        margin: 0 10%;
+    }
+
+    .imagem {
+        width: 80%;
+        margin: 0;
+    }
+
+    #melhores {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .paigif {
+        margin-top: 200px;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .gifmeio {
+        width: 60%;
+    }
+
+    .img-texto {
+        flex-direction: column;
+    }
+
+    #logistica1 {
+        width: 80%;
+        font-size: 50px;
+        height: auto;
+    }
+
+    #logistica2 {
+        width: 80%;
+        font-size: 60px;
+        height: auto;
+    }
+
+    .gifmeiologistica {
+        width: 90%;
+    }
+
+
+    .CDE {
+        margin-left: 20%
+    }
+
+    #logisticaGIF {
+
+        font-size: 60px;
+    }
+
+    #jesus {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1306px) and (max-width: 1440px) {
+
+    #pagina-inicial {
+        flex-wrap: wrap;
+    }
+
+    #gifchato {
+        width: 250px;
+        margin-left: 0;
+    }
+
+    #botoes {
+        margin-left: 10%;
+    }
+
+    .topicos {
+        flex-direction: column;
+    }
+
+    .parte1 {
+        width: 100%;
+    }
+
+    .texto {
+        margin: 20px 10% 0;
+
+        font-size: 35px;
+    }
+
+    .contagem {
+
+        font-size: 40px;
+    }
+
+
+    #teste {
+        width: max-content;
+        font-size: 65px;
+        height: auto;
+    }
+
+    #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    .parte2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    #cadu {
+        margin: 0 10%;
+    }
+
+    .imagem {
+        width: 80%;
+        margin: 0;
+    }
+
+    #melhores {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .paigif {
+        margin-top: 200px;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .gifmeio {
+        width: 60%;
+    }
+
+    .img-texto {
+        flex-direction: column;
+    }
+
+    #logistica1 {
+        width: 80%;
+        font-size: 50px;
+        height: auto;
+    }
+
+    #logistica2 {
+        width: 80%;
+        font-size: 60px;
+        height: auto;
+    }
+
+    .gifmeiologistica {
+        width: 90%;
+    }
+
+
+    .CDE {
+        margin-left: 20%
+    }
+
+    #logisticaGIF {
+
+        font-size: 60px;
+    }
+
+    #jesus {
+        font-size: 60px;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
