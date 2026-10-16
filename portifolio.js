@@ -94,3 +94,29 @@ if (sixseven != 67 ) {
 
 
 }
+
+
+
+
+
+const botoes = document.querySelectorAll(".Tbotoes button");
+
+botoes.forEach(function(botao) {
+
+    botao.addEventListener("click", function() {
+
+        const alvo = botao.dataset.alvo;
+
+        const titulo = document.getElementById(alvo);
+
+        titulo.scrollIntoView({
+
+            behavior: "smooth",
+
+            block: "start"
+
+        });
+
+    });
+    
+});
