@@ -673,8 +673,9 @@ width: 100%;
     flex-direction: column;
 
     width: max-content;
+    
 
-
+    
 
     gap: 50px;
 
@@ -727,11 +728,28 @@ width: 100%;
     padding: 16px;
 
     margin: 0;
-
-    
-
     
 }
+
+
+@media (max-width: 768px) {
+
+    .blocoestatistico {
+
+        padding: 5px;
+
+        width: 130px;
+
+        height: 120px;
+
+        border-radius: 15px;
+        
+
+    }
+
+}
+
+
 
 .numeros {
 
@@ -775,11 +793,13 @@ width: 100%;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 488px) {
 
     .estatisticas {
 
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 120px);
+
+        gap: 50px;
 
     }
 
@@ -790,6 +810,8 @@ width: 100%;
     display: flex;
 
     flex-direction: column;
+
+    width: max-content;
 
 
     background-color: #16161f;
@@ -805,7 +827,32 @@ width: 100%;
     padding: 10px;
 
     gap: 50px;
+
 }
+
+@media (max-width: 468px) {
+
+    #ficarbonito {
+
+        width: 315px;
+
+        margin-right: 0;
+
+    }
+
+}
+
+@media (min-width: 469px) and (max-width: 500px){
+
+    #ficarbonito {
+
+        width: 415px;
+
+    }
+
+}
+
+
 
 
 .controles-estoque {
@@ -1161,7 +1208,6 @@ width: 100%;
 }
 
     
-
 
 
 
