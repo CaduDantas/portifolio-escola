@@ -333,6 +333,19 @@ body {
 
 }
 
+@media (max-width: 768px) {
+
+    #teste2 {
+
+        width: max-content;
+
+        font-size: 27px;
+
+        height: auto;
+    }
+
+}
+
 .titulotopico {
 
     margin: 0 10% 0;
@@ -415,7 +428,7 @@ body {
 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1306px) and (max-width: 1920px) {
 
 #cadu {
 
@@ -660,8 +673,9 @@ width: 100%;
     flex-direction: column;
 
     width: max-content;
+    
 
-
+    
 
     gap: 50px;
 
@@ -714,11 +728,31 @@ width: 100%;
     padding: 16px;
 
     margin: 0;
-
-    
-
     
 }
+
+
+@media (max-width: 768px) {
+
+    .blocoestatistico {
+
+        align-items: flex-start;
+
+        padding: 5px;
+
+        width: 130px;
+
+        border-radius: 15px;
+
+        gap: 1px;
+        
+        
+
+    }
+
+}
+
+
 
 .numeros {
 
@@ -762,11 +796,13 @@ width: 100%;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 488px) {
 
     .estatisticas {
 
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 120px);
+
+        gap: 50px;
 
     }
 
@@ -777,6 +813,8 @@ width: 100%;
     display: flex;
 
     flex-direction: column;
+
+    width: max-content;
 
 
     background-color: #16161f;
@@ -792,7 +830,32 @@ width: 100%;
     padding: 10px;
 
     gap: 50px;
+
 }
+
+@media (max-width: 468px) {
+
+    #ficarbonito {
+
+        width: 315px;
+
+        margin-right: 0;
+
+    }
+
+}
+
+@media (min-width: 469px) and (max-width: 500px){
+
+    #ficarbonito {
+
+        width: 415px;
+
+    }
+
+}
+
+
 
 
 .controles-estoque {
@@ -913,7 +976,7 @@ width: 100%;
 
 
 
-@media (min-width: 769px) and (max-width: 1306px) {
+@media (min-width: 769px) and (max-width: 1106px) {
 
     #pagina-inicial {
         flex-wrap: wrap;
@@ -955,6 +1018,12 @@ width: 100%;
     }
 
     #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    #teste2 {
         width: max-content;
         font-size: 70px;
         height: auto;
@@ -1024,7 +1093,7 @@ width: 100%;
     }
 }
 
-@media (min-width: 1306px) and (max-width: 1440px) {
+@media (min-width: 1106px) and (max-width: 1350px) {
 
     #pagina-inicial {
         flex-wrap: wrap;
@@ -1066,6 +1135,12 @@ width: 100%;
     }
 
     #teste1 {
+        width: max-content;
+        font-size: 70px;
+        height: auto;
+    }
+
+    #teste2 {
         width: max-content;
         font-size: 70px;
         height: auto;
@@ -1136,7 +1211,6 @@ width: 100%;
 }
 
     
-
 
 
 
