@@ -736,13 +736,16 @@ width: 100%;
 
     .blocoestatistico {
 
+        align-items: flex-start;
+
         padding: 5px;
 
         width: 130px;
 
-        height: 120px;
-
         border-radius: 15px;
+
+        gap: 1px;
+        
         
 
     }
