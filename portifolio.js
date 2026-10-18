@@ -70,7 +70,7 @@ repor.innerHTML = `0`
 
     valor = -999
 
-     estoque.innerHTML = `<strong>faliu kkkkk</strong>`
+     estoque.innerHTML = `<strong>faliu kkk</strong>`
     }
 
 
