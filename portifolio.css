@@ -1324,6 +1324,31 @@ width: 100%;
 }
 }
 
+
+#finalVD {
+
+    margin-top: 200px;
+}
+
+#barrafinal {
+
+    width: 100%;
+
+    margin-top: 400px;
+
+    background-color: #16161f;
+
+    color: #16161f;
+
+    padding: 50px;
+
+}
+
+#paraver {
+
+
+    color: #EAEAF0;
+}
     
 
 
